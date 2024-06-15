@@ -1,4 +1,6 @@
-# The most popular mathematician in the world is throwing a party for all of his friends. As a way to kick things off, they decide that everyone should shake hands. Assuming all 10 people at the party each shake hands with every other person (but not themselves, obviously) exactly once, how many handshakes take place?
+# The most popular mathematician in the world is throwing a party for all of his friends. As a way to kick things off, 
+#they decide that everyone should shake hands. Assuming all 10 people at the party each shake hands with every other person (but not themselves, 
+#obviously) exactly once, how many handshakes take place?
 
 
 def calculate_handshakes(n):
@@ -35,7 +37,9 @@ total_handshakes = calculate_handshakes(num_people)
 print(f"Total number of handshakes: {total_handshakes}")
 
 
-# At the warm-up event for Oscar's All Star Hot Dog Eating Contest, Al ate one hot dog. Bob then showed him up by eating three hot dogs. Not to be outdone, Carl ate five. This continued with each contestant eating two more hot dogs than the previous contestant. How many hot dogs did Zeno (the 26th and final contestant) eat? How many hot dogs were eaten all together?
+# At the warm-up event for Oscar's All Star Hot Dog Eating Contest, Al ate one hot dog. Bob then showed him up by eating three hot dogs.
+# Not to be outdone, Carl ate five. This continued with each contestant eating two more hot dogs than the previous contestant. 
+# How many hot dogs did Zeno (the 26th and final contestant) eat? How many hot dogs were eaten all together?
 
 
 def hot_dog_eating_contest(num_contestants):
